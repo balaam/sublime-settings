@@ -8,5 +8,9 @@
 	[
 		80,
 		120
-	]
+	],
+    "font_options":
+    [
+        "subpixel_antialias"
+    ]
 }
