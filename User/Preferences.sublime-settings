@@ -9,6 +9,7 @@
 		80,
 		120
 	],
+    "font_size": 12.0,
     "font_options":
     [
         "subpixel_antialias"
