@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+
+${1:${TM_FILEPATH/^.*[\\|\/](.*)\.lua$/$1/g}} = {}
+$1.__index = $1
+function $1:Create()
+	local this = {}
+	$2
+	setmetatable(this, self)
+	return this
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.lua</scope>
+</snippet>
