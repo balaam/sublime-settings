@@ -4,7 +4,7 @@
     "indent_to_bracket": true,
     "auto_complete_commit_on_tab":true,
     "trim_trailing_white_space_on_save": true,
-    "folder_exclude_patterns": [".svn", ".git"],
+    "save_on_focus_lost": true,
     "rulers":
 	[
 		80,
@@ -14,5 +14,31 @@
     "font_options":
     [
         "subpixel_antialias"
+    ],
+    "folder_exclude_patterns":
+    [
+        ".svn",
+        ".git"
+    ],
+    "file_exclude_patterns":
+    [
+        "*.sublime-project",
+        "*.sublime-workspace",
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.psd",
+        "*.db",
+        "*.pdf",
+        "*.dds",
+        "*.png",
+        "*.tga",
+        "*.ai"
     ]
 }
