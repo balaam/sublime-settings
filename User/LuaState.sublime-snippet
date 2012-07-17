@@ -5,7 +5,7 @@ ${1:${TM_FILEPATH/^.*[\\|\/](.*)\.lua$/$1/g}} = {}
 $1.__index = $1
 function $1:Create()
 	local this = {}
-	$2
+	${0}
 	setmetatable(this, self)
 	return this
 end
