@@ -1,44 +1,44 @@
 {
-	"tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "indent_to_bracket": true,
-    "auto_complete_commit_on_tab":true,
-    "trim_trailing_white_space_on_save": true,
-    "save_on_focus_lost": true,
-    "rulers":
+	"auto_complete_commit_on_tab": true,
+	"file_exclude_patterns":
+	[
+		"*.sublime-project",
+		"*.sublime-workspace",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.psd",
+		"*.db",
+		"*.pdf",
+		"*.dds",
+		"*.png",
+		"*.tga",
+		"*.ai"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git"
+	],
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 13.0,
+	"indent_to_bracket": true,
+	"rulers":
 	[
 		80,
 		120
 	],
-    "font_size": 12.0,
-    "font_options":
-    [
-        "subpixel_antialias"
-    ],
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".git"
-    ],
-    "file_exclude_patterns":
-    [
-        "*.sublime-project",
-        "*.sublime-workspace",
-        "*.pyc",
-        "*.pyo",
-        "*.exe",
-        "*.dll",
-        "*.obj",
-        "*.o",
-        "*.a",
-        "*.lib",
-        "*.so",
-        "*.psd",
-        "*.db",
-        "*.pdf",
-        "*.dds",
-        "*.png",
-        "*.tga",
-        "*.ai"
-    ]
+	"save_on_focus_lost": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
