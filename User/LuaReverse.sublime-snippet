@@ -1,0 +1,15 @@
+<snippet>
+    <!-- This pushes in a snippet that reverse iterates through an ipairs
+         lua table.
+         Useful for when you want to remove items from a table while
+         traversing it.
+    -->
+    <content><![CDATA[
+for i = #${1:t}, 1, -1 do
+    local ${2:v} = ${1:t}[i]
+    ${0}
+end
+]]></content>
+    <tabTrigger>reverse</tabTrigger>
+    <scope>source.lua</scope>
+</snippet>
