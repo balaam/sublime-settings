@@ -1,3 +1,4 @@
 [
-	{ "keys": ["f2"], "command": "reload" }
+	{ "keys": ["f2"], "command": "reload" },
+    { "keys": ["f3"], "command": "last_error"}
 ]
