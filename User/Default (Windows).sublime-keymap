@@ -1,4 +1,5 @@
 [
 	{ "keys": ["f2"], "command": "reload" },
-    { "keys": ["f3"], "command": "last_error"}
+    { "keys": ["f3"], "command": "last_error"},
+    { "keys": ["ctrl+shift+w"], "command": "close_all" }
 ]
