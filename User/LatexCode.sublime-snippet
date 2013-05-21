@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+\begin{figure}[here]
+${1:}
+\begin{minted}{lua}
+\end{minted}
+\caption{${2:caption}}
+\label{fig:${2:ref}}
+\end{figure}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>code</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
+</snippet>
