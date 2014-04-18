@@ -3,7 +3,7 @@
 \begin{figure}[here]
 \includegraphics{${1:}.png}
 \caption{${2:}}
-\label{fig:${3:}}
+\label{fig:id}
 \end{figure}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

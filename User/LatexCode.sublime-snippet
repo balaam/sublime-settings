@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
 \begin{figure}[here]
-${1:}
 \begin{minted}{lua}
+${1:}
 \end{minted}
 \caption{${2:caption}}
-\label{fig:${2:ref}}
+\label{fig:id}
 \end{figure}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
