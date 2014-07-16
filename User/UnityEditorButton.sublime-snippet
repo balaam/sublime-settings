@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+if(GUILayout.Button("${1:Test Button}"))
+{
+    Debug.Log("$1");
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ueb</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.cs</scope>
+</snippet>

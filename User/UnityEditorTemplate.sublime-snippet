@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+using UnityEngine;
+using UnityEditor;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+
+[CustomEditor(typeof(${1:${TM_FILEPATH/^.*[\\|\/](.*)\Editor.cs$/$1/g}}))]
+public class $1Editor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        $1 item = target as $1;
+        DrawDefaultInspector();
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ue</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.cs</scope>
+</snippet>
