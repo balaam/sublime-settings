@@ -3,7 +3,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Debug = System.Diagnostics.Debug;
+using System.Linq;
 
 public class ${1:${TM_FILEPATH/^.*[\\|\/](.*)\.cs$/$1/g}} : MonoBehaviour
 {
