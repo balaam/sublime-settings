@@ -1,0 +1,10 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+	<content><![CDATA[renderer:DrawRect2d(-System.ScreenWidth()/2,
+		-System.ScreenHeight()/2,
+		System.ScreenWidth()/2,
+		System.ScreenHeight()/2,
+		Vector.Create(0, 0, 0, 1))]]></content>
+	<tabTrigger>rect</tabTrigger>
+	<scope>source.lua</scope>
+</snippet>
